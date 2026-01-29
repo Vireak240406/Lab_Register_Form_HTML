@@ -80,10 +80,16 @@
             </select>
 
             <label>Security Question:</label>
-            <select>
-                <option>what is your pet's name?</option>
-                <option>What is your mother’s name?</option>
+            <select name="security_question" required>git 
+                <option value="">Select a Security Question</option>
+                <option value="pet_name">What is your pet's name?</option>
+                <option value="mother_name">What is your mother’s name?</option>
+                <option value="birth_city">What city were you born in?</option>
+                <option value="favorite_teacher">Who was your favorite teacher?</option>
             </select>
+
+            <label>Answer:</label>
+            <input type="text" name="security_answer" placeholder="Your answer" required>
 
 
             <label>
